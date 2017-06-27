@@ -1,160 +1,156 @@
 .b-table {
-    width: 100%;
-    margin: 0;
-    background-color: black;
-    font-family: 'Overpass', sans-serif;
-    font-size: 16px;
-    box-sizing: border-box;
+	width: 100%;
+	margin: 0;
+	background-color: black;
+	font-family: 'Overpass', sans-serif;
+	font-size: 16px;
+	box-sizing: border-box;
 }
 
 .block-table {
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 100px;
-    background-image: url("../img/2-layers.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+	background-image: url("../img/2-layers.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .block-header__table-little {
-    margin-left: auto;
-    margin-right: auto;
-    width: 700px;
-    height: 450px;
-    background-color: #111a28;
-    position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	height: 450px;
+	background-color: #111a28;
+	position: relative;
 }
 
-
 .image-logo {
-    width: 65px;
-    height: 40px;
-    position: absolute;
-    top: 24px;
-    left: 21px;
+	display: inline-block;
+	width: 65px;
+	height: 40px;
+	padding-left: 25px;
+	padding-top: 25px;
 }
 
 .main-wrapper:after {
-    content: '';
-    display: table;
-    clear: both;
+	content: '';
+	display: table;
+	clear: both;
 }
 
 .main-image {
-    float: left;
-    margin-top: 215px;
-    margin-left:15px;
+	display: inline-block;
+	float: left;
+	margin-left: 25px;
+	position: absolute;
+	top: 200px;
 }
 
 .content-wrapper {
-    float: right;
-    width: 183;
-    height: 400px;
-    margin-right: 56px;
+	float: right;
+	width: 183;
+	height: 350px;
+	margin-right: 56px;
 }
 
 .content-wrapper__text {
-    margin-top:77px;
-    color:white;
-    opacity: 0.6
+	margin-top: 77px;
+	color: white;
+	opacity: 0.6
 }
 
 .content-wrapper__text-sub {
-    width: 200px;
+	width: 200px;
 }
 
 .content-stars {
-    margin-left: -42px;
-    height: 50px;
-    padding-top: 2px;
-    margin-bottom: 24px;
+	margin-left: -42px;
+	height: 50px;
+	padding-top: 2px;
+	margin-bottom: 24px;
 }
 
-
 .stars-wrapper {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
 }
 
 .stars-gold {
-    color: gold;
+	color: gold;
 }
 
 .stars-white {
-    color:white;
-    opacity: 0.5;
+	color: white;
+	opacity: 0.5;
 }
 
 .size {
-    width: 69;
-    height: 32;
-    padding: 6px;
-    margin-bottom: 29px;
-    border: 1px solid black;
-    opacity: 0.6;
-    font-family: "Museo Sans Rounded";
-    font-size: 16px;
-    background-color: #0d1e32;
+	width: 69;
+	height: 32;
+	padding: 6px;
+	margin-bottom: 29px;
+	border: 1px solid black;
+	opacity: 0.6;
+	font-family: "Museo Sans Rounded";
+	font-size: 16px;
+	background-color: #0d1e32;
 }
 
-
 .qty {
-     width: 69;
-    height: 32;
-    padding: 6px;
-    margin-bottom: 29px;
-    border: 1px solid black;
-    opacity: 0.6;
-    font-family: "Museo Sans Rounded";
-    font-size: 16px;
-    background-color: #0d1e32;
+	width: 69;
+	height: 32;
+	padding: 6px;
+	margin-bottom: 29px;
+	border: 1px solid black;
+	opacity: 0.6;
+	font-family: "Museo Sans Rounded";
+	font-size: 16px;
+	background-color: #0d1e32;
 }
 
 .b-button {
-    width: 184px;
-    height: 40px;
-    margin-left: 2px;
-    border: 1px solid black;
-    font-size: 15px;
-    font-weight: 500;
-    font-family: "Museo Sans Rounded";
-    background-color: #223041;
+	width: 184px;
+	height: 40px;
+	margin-left: 2px;
+	border: 1px solid black;
+	font-size: 15px;
+	font-weight: 500;
+	font-family: "Museo Sans Rounded";
+	background-color: #223041;
 }
 
 .white_b {
-    color: white;
-    font-size: 15px;
-    font-weight: 600;
-    opacity: 0.6;
+	color: white;
+	font-size: 15px;
+	font-weight: 600;
+	opacity: 0.6;
 }
 
 .b-slider {
-    width:100%;
-    height: 35px;
+	width: 100%;
+	height: 35px;
+	clear: both;
 }
 
 .slider-icons {
-    height: 20px;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.slider-icons {
-    margin-right: 441px;
+	height: 20px;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
 }
 
 .slider-points {
-    margin-right: 9px;
-    vertical-align: middle;
-}
-.points1 {
-    width: 14px;
-    height: 14px;
-    vertical-align: middle;
+	margin-right: 9px;
+	vertical-align: middle;
 }
 
+.points1 {
+	width: 14px;
+	height: 14px;
+	vertical-align: middle;
+}
